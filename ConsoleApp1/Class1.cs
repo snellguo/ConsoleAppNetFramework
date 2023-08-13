@@ -14,10 +14,10 @@ namespace ConsoleApp2
 
             Delegate[] arrDel = myDelegate.GetInvocationList();
 
-            foreach (var item in arrDel)
-            {
-                item.DynamicInvoke();
-            }
+            //foreach (var item in arrDel)
+            //{
+            //    item.DynamicInvoke();
+            //}
 
         }
         void Show()
