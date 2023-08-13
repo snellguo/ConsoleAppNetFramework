@@ -12,12 +12,13 @@ namespace ConsoleApp2
             MyDelegate myDelegate = Show;
             myDelegate += Show2;
 
-            Delegate[] arrDel = myDelegate.GetInvocationList();
+            //Delegate[] arrDel = myDelegate.GetInvocationList();
 
-            foreach (var item in arrDel)
-            {
-                item.DynamicInvoke();
-            }
+            //foreach (var item in arrDel)
+            //{
+            //    item.DynamicInvoke();
+            //}
+            
 
         }
         void Show()
