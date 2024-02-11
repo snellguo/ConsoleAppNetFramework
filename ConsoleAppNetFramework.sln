@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppNetFramework", "ConsoleApp1\ConsoleAppNetFramework.csproj", "{75DEACC4-7A02-4134-87A2-FF46B6D3F8AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyntaxTreeManualTraversal", "SyntaxTreeManualTraversal\SyntaxTreeManualTraversal.csproj", "{68AF2568-5810-47F3-8397-73A65B5EE5CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{75DEACC4-7A02-4134-87A2-FF46B6D3F8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75DEACC4-7A02-4134-87A2-FF46B6D3F8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75DEACC4-7A02-4134-87A2-FF46B6D3F8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68AF2568-5810-47F3-8397-73A65B5EE5CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68AF2568-5810-47F3-8397-73A65B5EE5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68AF2568-5810-47F3-8397-73A65B5EE5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68AF2568-5810-47F3-8397-73A65B5EE5CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
